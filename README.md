@@ -1,4 +1,5 @@
 Android CameraX的基础使用
+
 添加 Gradle 依赖
 打开项目的模块（Module）的build.gradle 文件，并添加 CameraX 依赖项：
 dependencies {
@@ -327,6 +328,7 @@ override fun onRequestPermissionsResult(
 
 运行后显示
 ![adddf787c0079b4e37db65878a5b442](https://github.com/user-attachments/assets/13137a52-cfe0-478e-92da-a502dac80e59)
+
 实现 Preview 用例
 
 private fun startCamera() {
